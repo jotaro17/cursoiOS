@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2802D3214DFD0CC003F0FE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2802D3114DFD0CC003F0FE9 /* UIKit.framework */; };
+		E2802D3414DFD0CD003F0FE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2802D3314DFD0CD003F0FE9 /* Foundation.framework */; };
+		E2802D3614DFD0CD003F0FE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2802D3514DFD0CD003F0FE9 /* CoreGraphics.framework */; };
+		E2802D3C14DFD0CD003F0FE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2802D3A14DFD0CD003F0FE9 /* InfoPlist.strings */; };
+		E2802D3E14DFD0CD003F0FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2802D3D14DFD0CD003F0FE9 /* main.m */; };
+		E2802D4214DFD0CD003F0FE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2802D4114DFD0CD003F0FE9 /* AppDelegate.m */; };
+		E2802D4A14DFD0CD003F0FE9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2802D4914DFD0CD003F0FE9 /* SenTestingKit.framework */; };
+		E2802D4B14DFD0CD003F0FE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2802D3114DFD0CC003F0FE9 /* UIKit.framework */; };
+		E2802D4C14DFD0CD003F0FE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2802D3314DFD0CD003F0FE9 /* Foundation.framework */; };
+		E2802D5414DFD0CD003F0FE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2802D5214DFD0CD003F0FE9 /* InfoPlist.strings */; };
+		E2802D5714DFD0CD003F0FE9 /* cursoiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2802D5614DFD0CD003F0FE9 /* cursoiOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2802D4D14DFD0CD003F0FE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2802D2414DFD0CC003F0FE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2802D2C14DFD0CC003F0FE9;
+			remoteInfo = cursoiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2802D2D14DFD0CC003F0FE9 /* cursoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cursoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2802D3114DFD0CC003F0FE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E2802D3314DFD0CD003F0FE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2802D3514DFD0CD003F0FE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E2802D3914DFD0CD003F0FE9 /* cursoiOS-Info.plist */ = {isa = PBXFileReference; path = "cursoiOS-Info.plist"; sourceTree = "<group>"; };
+		E2802D3B14DFD0CD003F0FE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2802D3D14DFD0CD003F0FE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2802D3F14DFD0CD003F0FE9 /* cursoiOS-Prefix.pch */ = {isa = PBXFileReference; path = "cursoiOS-Prefix.pch"; sourceTree = "<group>"; };
+		E2802D4014DFD0CD003F0FE9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2802D4114DFD0CD003F0FE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2802D4814DFD0CD003F0FE9 /* cursoiOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cursoiOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2802D4914DFD0CD003F0FE9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E2802D5114DFD0CD003F0FE9 /* cursoiOSTests-Info.plist */ = {isa = PBXFileReference; path = "cursoiOSTests-Info.plist"; sourceTree = "<group>"; };
+		E2802D5314DFD0CD003F0FE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2802D5514DFD0CD003F0FE9 /* cursoiOSTests.h */ = {isa = PBXFileReference; path = cursoiOSTests.h; sourceTree = "<group>"; };
+		E2802D5614DFD0CD003F0FE9 /* cursoiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cursoiOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2802D2A14DFD0CC003F0FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2802D3214DFD0CC003F0FE9 /* UIKit.framework in Frameworks */,
+				E2802D3414DFD0CD003F0FE9 /* Foundation.framework in Frameworks */,
+				E2802D3614DFD0CD003F0FE9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2802D4414DFD0CD003F0FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2802D4A14DFD0CD003F0FE9 /* SenTestingKit.framework in Frameworks */,
+				E2802D4B14DFD0CD003F0FE9 /* UIKit.framework in Frameworks */,
+				E2802D4C14DFD0CD003F0FE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2802D2214DFD0CC003F0FE9 = {
+			isa = PBXGroup;
+			children = (
+				E2802D3714DFD0CD003F0FE9 /* cursoiOS */,
+				E2802D4F14DFD0CD003F0FE9 /* cursoiOSTests */,
+				E2802D3014DFD0CC003F0FE9 /* Frameworks */,
+				E2802D2E14DFD0CC003F0FE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2802D2E14DFD0CC003F0FE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2802D2D14DFD0CC003F0FE9 /* cursoiOS.app */,
+				E2802D4814DFD0CD003F0FE9 /* cursoiOSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2802D3014DFD0CC003F0FE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2802D3114DFD0CC003F0FE9 /* UIKit.framework */,
+				E2802D3314DFD0CD003F0FE9 /* Foundation.framework */,
+				E2802D3514DFD0CD003F0FE9 /* CoreGraphics.framework */,
+				E2802D4914DFD0CD003F0FE9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2802D3714DFD0CD003F0FE9 /* cursoiOS */ = {
+			isa = PBXGroup;
+			children = (
+				E2802D4014DFD0CD003F0FE9 /* AppDelegate.h */,
+				E2802D4114DFD0CD003F0FE9 /* AppDelegate.m */,
+				E2802D3814DFD0CD003F0FE9 /* Supporting Files */,
+			);
+			path = cursoiOS;
+			sourceTree = "<group>";
+		};
+		E2802D3814DFD0CD003F0FE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2802D3914DFD0CD003F0FE9 /* cursoiOS-Info.plist */,
+				E2802D3A14DFD0CD003F0FE9 /* InfoPlist.strings */,
+				E2802D3D14DFD0CD003F0FE9 /* main.m */,
+				E2802D3F14DFD0CD003F0FE9 /* cursoiOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2802D4F14DFD0CD003F0FE9 /* cursoiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2802D5514DFD0CD003F0FE9 /* cursoiOSTests.h */,
+				E2802D5614DFD0CD003F0FE9 /* cursoiOSTests.m */,
+				E2802D5014DFD0CD003F0FE9 /* Supporting Files */,
+			);
+			path = cursoiOSTests;
+			sourceTree = "<group>";
+		};
+		E2802D5014DFD0CD003F0FE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2802D5114DFD0CD003F0FE9 /* cursoiOSTests-Info.plist */,
+				E2802D5214DFD0CD003F0FE9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2802D2C14DFD0CC003F0FE9 /* cursoiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2802D5A14DFD0CD003F0FE9 /* Build configuration list for PBXNativeTarget "cursoiOS" */;
+			buildPhases = (
+				E2802D2914DFD0CC003F0FE9 /* Sources */,
+				E2802D2A14DFD0CC003F0FE9 /* Frameworks */,
+				E2802D2B14DFD0CC003F0FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cursoiOS;
+			productName = cursoiOS;
+			productReference = E2802D2D14DFD0CC003F0FE9 /* cursoiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2802D4714DFD0CD003F0FE9 /* cursoiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2802D5D14DFD0CD003F0FE9 /* Build configuration list for PBXNativeTarget "cursoiOSTests" */;
+			buildPhases = (
+				E2802D4314DFD0CD003F0FE9 /* Sources */,
+				E2802D4414DFD0CD003F0FE9 /* Frameworks */,
+				E2802D4514DFD0CD003F0FE9 /* Resources */,
+				E2802D4614DFD0CD003F0FE9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2802D4E14DFD0CD003F0FE9 /* PBXTargetDependency */,
+			);
+			name = cursoiOSTests;
+			productName = cursoiOSTests;
+			productReference = E2802D4814DFD0CD003F0FE9 /* cursoiOSTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2802D2414DFD0CC003F0FE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E2802D2714DFD0CC003F0FE9 /* Build configuration list for PBXProject "cursoiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2802D2214DFD0CC003F0FE9;
+			productRefGroup = E2802D2E14DFD0CC003F0FE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2802D2C14DFD0CC003F0FE9 /* cursoiOS */,
+				E2802D4714DFD0CD003F0FE9 /* cursoiOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2802D2B14DFD0CC003F0FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2802D3C14DFD0CD003F0FE9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2802D4514DFD0CD003F0FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2802D5414DFD0CD003F0FE9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E2802D4614DFD0CD003F0FE9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2802D2914DFD0CC003F0FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2802D3E14DFD0CD003F0FE9 /* main.m in Sources */,
+				E2802D4214DFD0CD003F0FE9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2802D4314DFD0CD003F0FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2802D5714DFD0CD003F0FE9 /* cursoiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2802D4E14DFD0CD003F0FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2802D2C14DFD0CC003F0FE9 /* cursoiOS */;
+			targetProxy = E2802D4D14DFD0CD003F0FE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2802D3A14DFD0CD003F0FE9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2802D3B14DFD0CD003F0FE9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E2802D5214DFD0CD003F0FE9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2802D5314DFD0CD003F0FE9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2802D5814DFD0CD003F0FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2802D5914DFD0CD003F0FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2802D5B14DFD0CD003F0FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cursoiOS/cursoiOS-Prefix.pch";
+				INFOPLIST_FILE = "cursoiOS/cursoiOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E2802D5C14DFD0CD003F0FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cursoiOS/cursoiOS-Prefix.pch";
+				INFOPLIST_FILE = "cursoiOS/cursoiOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E2802D5E14DFD0CD003F0FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cursoiOS.app/cursoiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cursoiOS/cursoiOS-Prefix.pch";
+				INFOPLIST_FILE = "cursoiOSTests/cursoiOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E2802D5F14DFD0CD003F0FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cursoiOS.app/cursoiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cursoiOS/cursoiOS-Prefix.pch";
+				INFOPLIST_FILE = "cursoiOSTests/cursoiOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2802D2714DFD0CC003F0FE9 /* Build configuration list for PBXProject "cursoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2802D5814DFD0CD003F0FE9 /* Debug */,
+				E2802D5914DFD0CD003F0FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2802D5A14DFD0CD003F0FE9 /* Build configuration list for PBXNativeTarget "cursoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2802D5B14DFD0CD003F0FE9 /* Debug */,
+				E2802D5C14DFD0CD003F0FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2802D5D14DFD0CD003F0FE9 /* Build configuration list for PBXNativeTarget "cursoiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2802D5E14DFD0CD003F0FE9 /* Debug */,
+				E2802D5F14DFD0CD003F0FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2802D2414DFD0CC003F0FE9 /* Project object */;
+}
