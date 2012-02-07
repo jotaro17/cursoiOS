@@ -11,6 +11,7 @@
 @implementation Rectangle
 
 @synthesize width, height;
+@synthesize name;
 
 - (id)init {
     self = [self initWithWidth:0 height:0];
@@ -24,6 +25,10 @@
         [self setHeight:h];
     }
     return self;
+}
+
+-(void)printName{
+    NSLog(@"Nombre: %@", self.name);
 }
 
 - (void)dealloc {

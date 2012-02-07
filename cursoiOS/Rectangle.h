@@ -12,7 +12,9 @@
 
 @property (nonatomic, assign) int width;
 @property (nonatomic, assign) int height;
+@property (nonatomic, retain) NSString *name;
 
 -(id) initWithWidth: (int) w height: (int) h;
+-(void) printName;
 
 @end
