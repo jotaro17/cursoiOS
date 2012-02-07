@@ -18,6 +18,7 @@
 		E2802D4C14DFD0CD003F0FE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2802D3314DFD0CD003F0FE9 /* Foundation.framework */; };
 		E2802D5414DFD0CD003F0FE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2802D5214DFD0CD003F0FE9 /* InfoPlist.strings */; };
 		E2802D5714DFD0CD003F0FE9 /* cursoiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2802D5614DFD0CD003F0FE9 /* cursoiOSTests.m */; };
+		E2BE305E14E12AFC003CAAD8 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BE305D14E12AFC003CAAD8 /* Rectangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		E2802D5314DFD0CD003F0FE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2802D5514DFD0CD003F0FE9 /* cursoiOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cursoiOSTests.h; sourceTree = "<group>"; };
 		E2802D5614DFD0CD003F0FE9 /* cursoiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cursoiOSTests.m; sourceTree = "<group>"; };
+		E2BE305C14E12AFC003CAAD8 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		E2BE305D14E12AFC003CAAD8 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				E2802D4014DFD0CD003F0FE9 /* AppDelegate.h */,
 				E2802D4114DFD0CD003F0FE9 /* AppDelegate.m */,
 				E2802D3814DFD0CD003F0FE9 /* Supporting Files */,
+				E2BE305C14E12AFC003CAAD8 /* Rectangle.h */,
+				E2BE305D14E12AFC003CAAD8 /* Rectangle.m */,
 			);
 			path = cursoiOS;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			files = (
 				E2802D3E14DFD0CD003F0FE9 /* main.m in Sources */,
 				E2802D4214DFD0CD003F0FE9 /* AppDelegate.m in Sources */,
+				E2BE305E14E12AFC003CAAD8 /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,8 +301,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Agustin Huerta (89JBYBVUW7)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -311,6 +320,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "026F8B06-320E-42E8-99F5-D007E5EAEC29";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -319,8 +329,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Agustin Huerta (89JBYBVUW7)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -329,6 +342,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "026F8B06-320E-42E8-99F5-D007E5EAEC29";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -340,7 +354,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cursoiOS/cursoiOS-Prefix.pch";
 				INFOPLIST_FILE = "cursoiOS/cursoiOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -352,7 +366,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cursoiOS/cursoiOS-Prefix.pch";
 				INFOPLIST_FILE = "cursoiOS/cursoiOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -411,6 +425,7 @@
 				E2802D5C14DFD0CD003F0FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2802D5D14DFD0CD003F0FE9 /* Build configuration list for PBXNativeTarget "cursoiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +434,7 @@
 				E2802D5F14DFD0CD003F0FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
