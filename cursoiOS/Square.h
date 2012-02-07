@@ -10,4 +10,8 @@
 
 @interface Square : Rectangle
 
+-(id) initWithSize: (int) s;
+-(void) setSize: (int) s;
+-(int) size;
+
 @end

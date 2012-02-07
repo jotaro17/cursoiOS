@@ -11,10 +11,7 @@
 @implementation Rectangle
 
 - (id)init {
-    self = [super init];
-    if (self) {
-        [self initWithWidth:0 height:0];
-    }
+    self = [self initWithWidth:0 height:0];
     return self;
 }
 
