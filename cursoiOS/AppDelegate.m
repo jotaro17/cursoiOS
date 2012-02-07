@@ -31,14 +31,17 @@
     //Instancio Clase Rectangle con valores
     Rectangle *rectangle = [[Rectangle alloc] initWithWidth:10 height:20];
     NSLog(@"Rectangle Width: %d and Heigth: %d", rectangle.width, rectangle.height);
+    NSLog(@"Cuenta Referencias: %i", [rectangle retainCount]);
+    [rectangle release];
     
     //Instancio Clase Rectangle sin valores
-    Rectangle *rectangle2 = [[Rectangle alloc] init];
+    Rectangle *rectangle2 = [[[Rectangle alloc] init] autorelease];
     NSLog(@"Rectangle2 Width: %d and Heigth: %d", rectangle2.width, rectangle2.height);
     
     //Instancio Clase Cuadrado
     Square *square = [[Square alloc] initWithSize:10];
     NSLog(@"Square width: %d and Heigth: %d", square.width, square.height);
+    [square release];
     
     return YES;
 }

@@ -40,4 +40,9 @@
     [self setSize: h];
 }
 
+- (void)dealloc {
+    NSLog(@"Liberar cuadrado");
+    [super dealloc];
+}
+
 @end

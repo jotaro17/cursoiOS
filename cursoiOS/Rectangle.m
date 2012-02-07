@@ -44,4 +44,9 @@
     return  height;
 }
 
+- (void)dealloc {
+    NSLog(@"Liberar rectangulo");
+    [super dealloc];
+}
+
 @end
