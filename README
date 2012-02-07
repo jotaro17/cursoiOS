@@ -1,0 +1,11 @@
+Ejercicio 1: NSLog de Hola Mundo
+Ejercicio 2: configurar proyecto, certificados y lanzar en dispositivo
+Ejercicio 3: crear clase rectangulo
+Ejercicio 4: Añadirle variables de instancia width, height y sus getter/setter
+Ejercicio 5: Crear init clase Rectangulo e instanciarla
+Ejercicio 6: Sobreescribir init llame máx genericidad
+Ejercicio 6a: Crear Clase Square hereda de Rectangulo
+Ejercicio 6b(opcional): Crear init generico (llama self) y max genericidad (llama super) para Square
+Ejercicio 7: liberar rectangulos y cuadrados!
+Ejercicio 8a: property para tipo primitivo (width - heigth - int)
+Ejercicio 8b: property para tipo puntero (name - NSString)
