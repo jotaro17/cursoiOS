@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Rectangle.h"
 
 @implementation AppDelegate
 
@@ -25,6 +26,11 @@
     self.window.backgroundColor = [UIColor whiteColor];
     NSLog(@"Hola Mundo");
     [self.window makeKeyAndVisible];
+    
+    //Instancio Clase Rectangle
+    Rectangle *rectangle = [[Rectangle alloc] initWithWidth:10 height:20];
+    NSLog(@"Rectangle Width: %d and Heigth: %d", rectangle.width, rectangle.height);
+    
     return YES;
 }
 

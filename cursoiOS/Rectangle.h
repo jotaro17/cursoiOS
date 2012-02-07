@@ -12,6 +12,7 @@
     int width;
     int height;
 }
+-(id) initWithWidth: (int) w height: (int) h;
 
 -(int) width;
 -(int) height;

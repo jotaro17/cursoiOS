@@ -10,6 +10,14 @@
 
 @implementation Rectangle
 
+-(id) initWithWidth: (int) w height: (int) h {
+    self = [super init];
+    if (self) {
+        [self setWidth: w height: h];
+    }
+    return self;
+}
+
 -(void) setWidth: (int) w {
     width = w;
 }
