@@ -35,17 +35,17 @@
 		E2802D3114DFD0CC003F0FE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E2802D3314DFD0CD003F0FE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E2802D3514DFD0CD003F0FE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E2802D3914DFD0CD003F0FE9 /* cursoiOS-Info.plist */ = {isa = PBXFileReference; path = "cursoiOS-Info.plist"; sourceTree = "<group>"; };
+		E2802D3914DFD0CD003F0FE9 /* cursoiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cursoiOS-Info.plist"; sourceTree = "<group>"; };
 		E2802D3B14DFD0CD003F0FE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2802D3D14DFD0CD003F0FE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E2802D3F14DFD0CD003F0FE9 /* cursoiOS-Prefix.pch */ = {isa = PBXFileReference; path = "cursoiOS-Prefix.pch"; sourceTree = "<group>"; };
-		E2802D4014DFD0CD003F0FE9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2802D3F14DFD0CD003F0FE9 /* cursoiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cursoiOS-Prefix.pch"; sourceTree = "<group>"; };
+		E2802D4014DFD0CD003F0FE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2802D4114DFD0CD003F0FE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E2802D4814DFD0CD003F0FE9 /* cursoiOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cursoiOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2802D4914DFD0CD003F0FE9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		E2802D5114DFD0CD003F0FE9 /* cursoiOSTests-Info.plist */ = {isa = PBXFileReference; path = "cursoiOSTests-Info.plist"; sourceTree = "<group>"; };
+		E2802D5114DFD0CD003F0FE9 /* cursoiOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cursoiOSTests-Info.plist"; sourceTree = "<group>"; };
 		E2802D5314DFD0CD003F0FE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E2802D5514DFD0CD003F0FE9 /* cursoiOSTests.h */ = {isa = PBXFileReference; path = cursoiOSTests.h; sourceTree = "<group>"; };
+		E2802D5514DFD0CD003F0FE9 /* cursoiOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cursoiOSTests.h; sourceTree = "<group>"; };
 		E2802D5614DFD0CD003F0FE9 /* cursoiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cursoiOSTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -340,6 +340,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cursoiOS/cursoiOS-Prefix.pch";
 				INFOPLIST_FILE = "cursoiOS/cursoiOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -351,6 +352,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cursoiOS/cursoiOS-Prefix.pch";
 				INFOPLIST_FILE = "cursoiOS/cursoiOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
