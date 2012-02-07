@@ -8,17 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Rectangle : NSObject {
-    int width;
-    int height;
-}
+@interface Rectangle : NSObject
+
+@property (nonatomic, assign) int width;
+@property (nonatomic, assign) int height;
+
 -(id) initWithWidth: (int) w height: (int) h;
-
--(int) width;
--(int) height;
-
--(void) setWidth: (int) w;
--(void) setHeight: (int) h;
--(void) setWidth: (int) w height: (int) h;
 
 @end

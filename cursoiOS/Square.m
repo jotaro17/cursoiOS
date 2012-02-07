@@ -16,28 +16,11 @@
 }
 
 -(id) initWithSize: (int) s {
-    self = [super init];
+    self = [super initWithWidth:s height:s];
     if (self) {
-        [self setSize: s];
+        //Inicializar
     }
     return self;
-}
-
--(void) setSize: (int) s {
-    width = s;
-    height = s;
-}
-
--(int) size {
-    return width;
-}
-
--(void) setWidth: (int) w {
-    [self setSize: w];
-}
-
--(void) setHeight: (int) h {
-    [self setSize: h];
 }
 
 - (void)dealloc {
