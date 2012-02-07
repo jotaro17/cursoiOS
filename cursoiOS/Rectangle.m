@@ -10,6 +10,14 @@
 
 @implementation Rectangle
 
+- (id)init {
+    self = [super init];
+    if (self) {
+        [self initWithWidth:0 height:0];
+    }
+    return self;
+}
+
 -(id) initWithWidth: (int) w height: (int) h {
     self = [super init];
     if (self) {
