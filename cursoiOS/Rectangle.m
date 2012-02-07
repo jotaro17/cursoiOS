@@ -33,6 +33,7 @@
 
 - (void)dealloc {
     NSLog(@"Liberar rectangulo");
+    [name release];
     [super dealloc];
 }
 
