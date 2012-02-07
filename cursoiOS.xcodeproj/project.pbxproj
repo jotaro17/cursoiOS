@@ -194,6 +194,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Alberto Lobo Inc.";
 			};
 			buildConfigurationList = E2802D2714DFD0CC003F0FE9 /* Build configuration list for PBXProject "cursoiOS" */;
 			compatibilityVersion = "Xcode 3.2";

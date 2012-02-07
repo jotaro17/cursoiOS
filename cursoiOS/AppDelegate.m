@@ -3,7 +3,7 @@
 //  cursoiOS
 //
 //  Created by Alberto Lobo Muñoz on 06/02/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Alberto Lobo Inc. All rights reserved.
 //
 
 #import "AppDelegate.h"
