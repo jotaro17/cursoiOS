@@ -10,4 +10,25 @@
 
 @implementation Rectangle
 
+-(void) setWidth: (int) w {
+    width = w;
+}
+
+-(void) setHeight: (int) h {
+    height = h;
+}
+
+-(void) setWidth: (int) w height: (int) h {
+    width = w;
+    height = h;
+}
+
+-(int) width {
+    return width;
+}
+
+-(int) height {
+    return  height;
+}
+
 @end

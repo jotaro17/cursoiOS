@@ -8,6 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Rectangle : NSObject
+@interface Rectangle : NSObject {
+    int width;
+    int height;
+}
+
+-(int) width;
+-(int) height;
+
+-(void) setWidth: (int) w;
+-(void) setHeight: (int) h;
+-(void) setWidth: (int) w height: (int) h;
 
 @end
